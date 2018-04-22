@@ -1,0 +1,18 @@
+var showcase = [        
+	{
+		url: 'http://webstudio-maestro.ch',
+		img: 'showcase/showcase1.png',
+	},
+	{
+		url: 'http://strahovanie.ch',
+		img: 'showcase/showcase2.png'
+	},
+	{
+		url: 'http://svetarobski.com',
+		img: 'showcase/showcase3.png',
+	},
+	{
+		url: 'http://webstudio-ddesign.com',
+		img: 'showcase/showcase4.png',
+	},
+];

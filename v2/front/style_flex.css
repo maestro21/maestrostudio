@@ -1,0 +1,301 @@
+/** General **/
+
+body {
+    font-family: 'Open Sans';
+    background-color: black;
+    margin: 0;
+    padding:0;
+}
+
+h1, h2, h3, h4, h5, .menu a {
+	font-family: 'Playfair Display';
+	font-weight: normal;
+}
+	
+h2 {
+        font-size: 24px;
+        margin-top: 20px;
+}
+
+
+.header, .footer {
+    position: fixed;
+}
+
+.wrapper {
+    width: 65vw;;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/** header **/
+.header{
+    top: 0;
+    z-index: 2;
+    height: 14vw;
+    position: relative;
+    background: url(img/images/maestrostudio_01.jpg) center bottom no-repeat;
+    background-size: 150vw auto;
+    color: white;
+}
+
+    .header .logo {
+        display: inline-block;
+    }
+        .header .logo img{
+            display: inline-block;
+            width:5vw;
+            height:5vw;
+        }
+        .header h1 {			
+            font-size:2vw;
+            line-height:2vw;    
+            font-weight:normal;
+            margin-bottom: 0;
+            letter-spacing: 2px;
+        }
+
+	.langs {
+            padding-top: 2vw;
+            float: right;
+	}
+	
+	.langs img {
+            height:3vw;
+	}
+        
+        .langs img.active {
+            border:1px white solid;
+            border-radius: 50px;
+        }
+        
+        .langs a.active {
+            border: 1px white solid;
+            border-radius: 50%;
+        }
+
+
+		.header div {
+		}
+		
+		
+	.menu {
+            display: table;
+            width: 100%;
+            margin-top: 1vw;
+	}
+            .menu a {
+                color: white;
+                text-decoration: none;
+                padding-bottom: 1vw;
+                display: inline-block;
+                font-size: 1.2vw;
+                display: table-cell;
+                white-space: nowrap;
+                text-align:center;
+            }
+
+            .menu a.active,
+            .menu a:hover {
+                    border-bottom: 2px white solid;
+            }
+
+/** Content **/        
+        
+        
+.content {
+    background: url(img/images/maestrostudio_02.jpg) center top no-repeat;
+    background-size: 150vw auto;
+    height: 32vw;
+    color: white;
+    overflow: hidden;
+}
+	
+    .content a {color: white;
+    }
+        
+        
+    .fullpage {
+        width: 57vw;
+        position: relative;
+        left: -0.3vw;
+        background-color: white;
+        margin: 0 auto;        
+    }
+
+    .fp-tableCell {
+        vertical-align: top;
+    }
+    
+    .section {
+         padding:10px 25px;
+    }
+    
+        
+    
+    .content h2 {
+        color: black;
+        font-family: 'Playfair Display';
+        font-size: 3.5vw;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 4vw;
+        position: relative;
+        text-align: center;
+        text-indent: -2vw;
+        padding-bottom: 1vw;
+        border-bottom: 1px black solid;
+        margin-bottom: 2vw;
+        margin-top: 2vw;
+    }
+
+    .content p, li {
+        color: black;
+        font-family: 'Open Sans';
+        font-size: calc(5px + 1vw);
+        font-weight: 300;
+        line-height: calc(5px + 2vw);
+    }
+
+    .content a {
+            color: #aaa;	border-bottom: 1px solid #e4e4e4;
+            text-decoration: none;
+    }
+
+    .content a:hover {
+            border-bottom: 1px solid #fff;
+            color: #fff;
+    }
+	
+/** contacts **/
+.contacts {
+    color: white;
+    right: 4.7vw;
+    top: 28vw;
+    /* margin-left: 590px; */
+    /* left: 50%; */
+    /* top: 465px; */
+    position: absolute;
+    text-align: center;
+    width: 9.8vw;
+    font-weight: 300;
+    font-size: calc(5px + 0.7vw);
+}
+@media (max-width: 1000px) {
+    .contacts {
+        font-size: 1.2vw;
+    }
+}
+
+    .contacts p {
+        margin-top: 1vw;
+        margin-bottom: 0;
+    }
+
+    .contacts h2 {        
+        font-family: 'Open Sans';
+        line-height: 3vw;
+        margin: 0;
+        font-size: 1.3vw;
+    }
+    
+    .contacts .email {
+        font-size: 0.8em;
+    }
+    
+    .contacts .phone {
+        white-space: nowrap;
+    }
+    
+    .round {
+        display: inline-block;
+        background-color: green;
+        padding: 1vw;
+        color: white;
+        text-decoration: none;
+        border-radius: 50%;
+        width: 1vw;
+        height: 1vw;
+        font-size: 1vw !important;
+        line-height: 1vw !important;
+        text-align: center;
+        margin: 0 0.5vw;
+    }
+    
+    .btns {
+        white-space: nowrap;
+        margin: 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .red {
+            background-color: darkred;
+    }
+
+
+/** footer **/
+	
+
+.footer {
+    color: #333;
+    /* padding-top: 15px; */
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 46vw);
+    background: url(img/images/maestrostudio_03.jpg) center top no-repeat;
+    background-size: 150vw auto;
+}
+
+    .footer .copy {
+        display: inline-block;
+        width: 200px;
+        font-size: 1vw;
+        line-height: 2vw;
+        margin-top: 0.5vw;
+    }
+        
+    
+ul {
+    list-style: none;
+    margin-top: 1vw;
+    margin-bottom: 1vw;
+}
+
+li:before {
+    content: "☆";
+    margin-right: 4px;
+    position: absolute;
+    margin-left: -35px;
+}
+.fp-controlArrow {
+    position: absolute;
+    z-index: 3;
+    margin-top: 0;
+    transform: none;
+    top: 12vw;
+}
+
+.fp-controlArrow.fp-next {
+    border-color:transparent transparent transparent #333;
+    right: -2.5vw;
+    z-index: 3;
+    border-width: 2.5vw 0 2.5vw 1.8vw;
+}
+
+.fp-controlArrow.fp-prev {
+    border-color:transparent #333 transparent transparent;
+    left: -2.5vw;
+    z-index: 3;
+    border-width: 2.5vw 1.8vw 2.5vw 0;
+}
+
+
+.content img {
+    border-radius: 5px;
+}
+

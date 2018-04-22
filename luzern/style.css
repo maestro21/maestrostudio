@@ -1,0 +1,86 @@
+body {
+    font-family: 'Open Sans';
+    margin: 0;
+    padding:0;
+}
+
+h1, h2, h3, h4, h5, .menu a {
+    font-family: 'Playfair Display';
+    font-weight: normal;
+}
+
+.wrap {
+    width:80vw;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-image {
+    height:100vh;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header {
+    position: fixed;
+    z-index: 20;
+    width:100%;;
+}
+
+    .header .wrap {
+        margin-top: 10px;
+    }
+
+    .header .wrap > div {
+        display: table-cell;
+        padding-left:50px;
+    }
+
+    .logo {
+        background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Wappen_Luzern_matt.svg/2000px-Wappen_Luzern_matt.svg.png');
+        background-size: 40px;
+        background-position: left;
+        background-repeat: no-repeat;
+        color: white;
+        text-shadow: 1px 1px 1px black;
+    }
+
+    .menu {
+        width: 800px;
+    }
+    .menu li {
+        display: inline-flex;
+    }
+    .menu a {
+        color: white;
+        text-decoration: none;
+        padding: 20px;
+        display: table-cell;
+        font-size: 20px;
+        text-shadow: 1px 1px 0px black;
+    }
+
+
+        .langs img.active {
+            border: 1px white solid;
+            border-radius: 50px;
+        }
+
+        .langs img {
+            height: 50px;
+        }
+
+
+.section {
+    padding: 50px 0;
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.footer {
+    height: 300px;
+}

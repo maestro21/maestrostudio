@@ -1,0 +1,217 @@
+* {
+    font-family: "Open Sans"
+}
+
+.sidebar {
+    background-color: #e9edef !important;
+    display: inline-block;
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    font-family: "Open Sans" !important;
+}
+
+    .menu {
+        width: 300px;
+        height: 100%;
+        list-style: none inside;
+        padding:0;
+    }
+
+    .menu li {
+        color: #1d1d1d;
+        padding: 15px;
+        cursor: pointer;
+        border-left: 5px #e9edef solid;
+    }
+
+    .menu li a {
+        color: #1d1d1d;
+        text-decoration: none;
+    }
+
+    .menu li:hover,
+    .menu li:hover,
+    .menu li.active,
+    .menu li.active
+    {
+        color: #1d1d1d;
+        background-color: rgb(243, 243, 243);
+        border-color: #ff8200;
+    }
+
+
+
+    .header,
+    .navbar {
+        background-color: #333;
+        color: white;
+    }
+
+    .header {
+        padding-top:50px;
+        padding-left:20px;
+        padding-right: 30px;
+        padding-bottom: 10px;
+    }
+
+    .header h3 {
+        font-size: 20px;
+        padding:0;
+        margin:0;
+        margin-bottom: 30px;
+        font-weight: 700;
+    }
+
+    .progress {
+        height: 2px !important;
+        margin: 5px 0 !important;
+    }
+    .header .span {
+        font-weight: 700;
+        text-transform: lowercase;
+        letter-spacing: .12rem;
+        font-size: 1.1rem;
+    }
+
+    .progress .active {
+        background-color: #ff8200 !important;
+    }
+
+
+.content {
+    width: calc(100% - 350px);
+    background-color: white;
+    left: 350px;
+    position: absolute;
+}
+
+
+
+.sidebar .navbar {
+    height: 50px;
+    position: fixed;
+    bottom: 0;
+    margin: 0;
+    border-radius: 0;
+    width: 300px;
+    text-align: center;
+}
+
+
+
+.navbar {
+    user-select: none;
+}
+.navbar .arrow {
+    width: 28px;
+    height: 50px;
+    display: inline-flex;
+    cursor: pointer;
+    font-size: 25px;
+    line-height: 50px;
+    color: lightgray;
+    /*margin: 0 10px;
+    background-position: center center;
+    background-size: 22px 40px;
+    background-repeat: no-repeat; */
+}
+
+.navbar a:hover,
+.navbar .arrow:hover {
+    color: #ff8200;
+}
+
+/*
+.navbar .arrow.right {
+     background-image:url('img/arrow_right.png');
+ }
+.navbar .arrow.right:hover {
+    background-image:url('img/arrow_right_active.png');
+}
+
+.navbar .arrow.left {
+    background-image:url('img/arrow_left.png');
+}
+.navbar .arrow.left:hover {
+    background-image:url('img/arrow_left_active.png?v=1');
+} */
+
+
+.section-cancel {
+    position:fixed !important;
+    top:0;
+    background-color: #fff;
+    width:100%;
+    height: 100%;
+    display:none;
+}
+
+.section-cancel,
+.section  {
+    min-height: 100vh;
+    position: relative;
+    padding: 50px;
+}
+
+.menu ul {
+    margin-bottom: 0;
+    margin-left: 0;
+    padding: 0;
+    list-style-type: disc;
+}
+
+.progressCircle {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+}
+
+.completed {
+    border-radius: 50%;
+    background-color: #ff8200;
+    text-align: center;
+    color: white;
+}
+
+.navbar .btn-cancel {
+    position: relative;
+    top: -5px;
+    color: white;
+    padding: 0 40px;
+    /* font-size: 20px; */
+    font-weight: 100;
+    cursor: pointer;
+    color: #888;
+}
+
+.fullpage h3 {
+    border-bottom: 2px #e9edef solid;
+    display: block;
+    padding-bottom: 5px;
+}
+
+.success {
+    color: green;
+    font-weight: bold;
+}
+
+.center {
+    margin: 10px;
+    text-align: center;
+}
+
+.section div {
+    margin: 20px 0;
+}
+
+.canceled {
+    background-color:red;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+}

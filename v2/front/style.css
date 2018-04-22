@@ -1,0 +1,274 @@
+/** General **/
+
+body {
+    font-family: 'Open Sans';
+    background-color: black;
+    margin: 0;
+    padding:0;
+}
+
+h1, h2, h3, h4, h5, .menu a {
+	font-family: 'Playfair Display';
+	font-weight: normal;
+}
+	
+h2 {
+        font-size: 24px;
+        margin-top: 20px;
+}
+
+
+.header, .footer {
+    position: fixed;
+}
+
+.wrapper {
+    width: 1040px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.center {
+    text-align: center;
+}
+
+/** header **/
+.header{
+    top:0;
+    z-index:2;
+    height: 235px;
+    position: relative;
+    background:url('img/images/maestrostudio_01.jpg') center bottom no-repeat;
+    color: white;
+}
+    .header .logo {
+        display: inline-block;
+    }
+
+	.langs {
+		padding-top: 35px;
+		float: right;
+	}
+	
+	.langs img {
+		height:50px;
+	}
+        
+        .langs img.active {
+            border:1px white solid;
+            border-radius: 50px;
+        }
+        
+        .langs a.active {
+            border: 1px white solid;
+            border-radius: 50%;
+        }
+
+
+		.header h1 {
+			font-size:30px;
+			font-weight:normal;
+			margin-bottom: 0;
+			letter-spacing: 2px;
+		}
+	
+		.header div {
+		}
+		
+		
+	.menu {
+        width: 1060px;
+        display: table;
+        left: -20px;
+        position: relative;
+	}	
+	
+	.logo {
+		top: -3px;
+		position: relative;
+	}
+
+	
+	.menu a {
+		color: white;
+		text-decoration: none;
+		padding: 20px;
+		display:table-cell;
+		font-size: 20px;
+	}
+
+    .menu a.active,
+	.menu a:hover {
+		border-bottom: 2px white solid;
+	}
+
+/** Content **/        
+        
+        
+.content {
+    background:url('img/images/maestrostudio_02.jpg') center top no-repeat;
+    height:526px;
+    color: white;
+}
+	
+    .content a {color: white;
+    }
+        
+        
+    .fullpage {
+        width: 951px;
+        position: relative;
+        left: -5px;
+        background-color: white;
+        margin: 0 auto;        
+    }
+
+    .fp-tableCell {
+        vertical-align: top;
+    }
+    
+    .section {
+         padding:10px 25px;
+    }
+    
+        
+    
+    .content h2 {
+        color: black;
+        font-family: 'Playfair Display';
+        font-size: 60px;
+        font-weight: 800;
+        letter-spacing: -2px;
+        line-height: 72px;
+        position: relative;
+        text-align: center;
+        text-indent: -30px;
+        padding-bottom: 15px;
+        border-bottom: 1px black solid;
+        margin-bottom: 30px;
+    }
+
+    .content p, li {
+        color: black;
+        font-family: 'Open Sans';
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 40px;
+    }
+
+    .content a {
+            color: #aaa;	border-bottom: 1px solid #e4e4e4;
+            text-decoration: none;
+    }
+
+    .content a:hover {
+            border-bottom: 1px solid #fff;
+            color: #fff;
+    }
+	
+/** contacts **/
+.contacts {
+    color:white;
+    margin-left: 590px;
+    left: 50%;
+    top: 465px;
+    position: absolute;
+    text-align: center;
+    width: 166px;
+        font-weight: 300;
+}
+
+    .contacts h2 {        
+        font-family: 'Open Sans';
+        margin-top: 15px;
+        margin-bottom: 21px;
+        font-weight: 300;
+        font-size: 21px;
+    }
+    
+    .contacts .email {
+        font-size:14px;
+    }
+    
+    .contacts .phone {
+        font-size:18px;
+    }
+    
+    .round {
+        display: inline-block;
+        background-color: green;
+        padding: 16px;
+        color: white;
+        text-decoration: none;
+        border-radius: 50%;
+        width: 16px;
+        height: 16px;
+        font-size: 16px !important;
+        line-height: 16px !important;
+        text-align: center;
+        margin: 0 8px;
+    }
+
+    .red {
+            background-color: darkred;
+    }
+
+
+/** footer **/
+	
+
+.footer {
+    color: #333;
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Open Sans';
+    margin: 0 auto;
+    position: fixed;
+    width:100%;
+    height: calc(100vh - 761px);
+    background:url('img/images/maestrostudio_03.jpg') center top no-repeat;
+}
+
+    .footer .copy {
+            display: inline-block;
+            width: 200px;
+    }
+        
+    
+ul {
+    list-style: none;
+}
+
+li:before {
+    content: "☆";
+    margin-right: 4px;
+    position: absolute;
+    margin-left: -35px;
+}
+
+.fp-controlArrow {
+    top: -50vw;
+    position: relative;
+    z-index: 3;
+    margin-top: 0;
+}
+
+.fp-controlArrow.fp-next {
+    border-color: transparent transparent transparent #333;
+    /* top: 260px; */
+    right: -4vw;
+    z-index: 3;
+    border-width: 40px 0 40px 30px;
+    float: right;
+}
+
+.fp-controlArrow.fp-prev {
+    border-color:transparent #333 transparent transparent;
+    top: 260px;
+    margin-left: -60px;
+    z-index: 3;
+    border-width: 40px 30px 40px 0;
+}
+
+

@@ -1,0 +1,173 @@
+body {
+	background: url('img/maestrostudio.jpg');
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 2500px;
+	background-position: center top;	
+	background-color: black;
+	background-repeat: no-repeat;
+	font-family: arial;
+	color: white;
+}
+
+h1, h2, h3, h4, h5, .menu a {
+	font-family: georgia;
+	font-weight: normal;
+}
+
+
+.wrapper {
+	padding-top: 15px;
+}
+
+.wrapper > div{
+	width:1000px;
+	margin-left: auto;
+    margin-right: auto;
+	
+}
+
+	.wrapper .langs {
+		text-align: right;
+		position: absolute;
+		left: 50%;
+		width: 200px;
+		padding-left: 300px;
+	}
+	
+	.langs img {
+		height:50px;
+	}
+
+	.header {
+		width:1000px;
+	}
+
+		.header h1 {
+			font-size:35px;
+			font-weight:normal;
+			margin-bottom: 0;
+			letter-spacing: 2px;
+		}
+	
+		.header div {
+		}
+		
+		
+	.menu {
+		
+	}	
+	
+	.logo {
+		top: -3px;
+		position: relative;
+	}
+
+	
+	.menu a {
+		color: white;
+		text-decoration: none;
+		padding: 20px;
+		display:inline-block;
+		font-size: 20px;
+	}
+	
+	.menu a:hover {
+		text-decoration: underline;
+	}
+	
+	.content {
+		background: white;
+		margin: 52px 21px;
+		padding: 18px;
+		height: 500px;
+		width: 920px;
+		padding-right: 10px;
+		overflow-y: auto;
+		font-size: 15px;
+		margin-bottom: 20px;
+		color: #333;
+		text-align: center;
+	}
+	
+	.content a {
+		color:white;
+	}
+	
+		.article {
+			margin-top: 30px;	
+			font-family: "Courier New", Courier, monospace;
+			font-size: 16px;
+			color: lime;	
+		}
+		
+		.techno {
+			    font-family: "Courier New", Courier, monospace;
+		}
+		
+		.article:hover {
+			color: #F0F0F0;
+		}
+		
+		.article p {
+			padding:0;
+			margin: 5px 0;
+		}
+		
+		.article p a {
+			font-weight: bold;
+			font-size: 19px;			
+			text-decoration: none;
+		}
+		
+		#ascrail2000 {
+			opacity: 1 !important;
+		}
+		
+	.wrapper .contacts {
+		width:200px;
+		position: absolute;
+		top: 670px;
+		left: 50%;
+		padding-left:600px;		
+		font-size: 16px;
+	}
+
+		.contacts div {
+			padding-left:10px;
+			margin-top:90px;
+		}
+		
+		.contacts div > p:first-child {
+			margin-left:7px;
+		}
+		
+		.contactme {
+			display: inline-block;
+			background-color: green;
+			padding: 10px;
+			color: white;
+			text-decoration: none;
+			border-radius: 5px;
+			width:103px;
+			margin-left:3px;
+		}
+	
+	h2 {
+		font-size: 24px;
+		margin-top: 0;
+	}
+	
+	
+	.footer {
+		color: #555;
+		padding-top: 15px;
+		text-align: center;
+		font-family: georgia;		
+	}
+	
+	.footer .copy {
+		display: inline-block;
+		width: 200px;
+	}

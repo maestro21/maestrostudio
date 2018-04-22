@@ -1,0 +1,111 @@
+html {
+	min-width: 100vw;
+	min-height: 100vh;
+	padding: 0;
+}
+body {
+    font-family: 'Open Sans';
+    background: url('bg.jpg');
+    background-size: cover;    
+    color: white;
+    text-align: center;
+	min-width: 100vw;
+	min-height: 100vh;
+	padding: 0;
+    margin:0;
+}
+
+.logo {
+    width: 500px;
+}
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+h1 {
+    font-size: 3em;
+    margin: 25px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 20px;
+    font-weight: normal;
+}
+
+
+.contacts,
+.text {
+    text-align: left;
+    font-size: 20px;
+    width: 600px;
+    margin: 10px auto;
+    margin-left: 230px;
+}
+
+.icon {
+    width: 20px;
+    display: inline-block;
+    text-align: center;
+}
+
+.text {
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+    .text li {
+        list-style-type: none;
+    }
+        .text li:before {
+            color: gold;
+            content: "\2605";
+            padding-right: 10px;
+            position: absolute;
+            margin-left: -30px;
+        }
+
+.contacts {
+    text-align: left;
+    display: inline-block;    
+    margin-left: 170px;
+}
+
+.copy {
+    position: fixed;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@media(orientation:portrait) {
+    .logo {
+        width: 500px;
+        position: absolute;
+        top: 0;
+        left: calc(50vw - 250px);
+    }
+
+    .wrapper {
+        height: 100vh;
+        width: 100vw;
+        margin: 0 auto;
+        vertical-align: middle;
+        display: table-cell;
+    }
+}
+
+@media(max-device-width: 400px), (max-width:400px) {
+    .contacts, .text {
+        font-size: 1.5vh;
+    }
+}
