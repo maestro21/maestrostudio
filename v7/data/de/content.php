@@ -29,7 +29,7 @@ freiberufliche Projekte im Bereich Web-Entwicklung, Internet-Projekte und Blockc
 			<img src="<?=img('maestro_sml.png');?>" class="maestro_sml"> -->
 			<p><b>Sergei Popov</b></p>
 			<p>Gründer und Inhaber von Maestro Studio</p>
-			<p><a href="#">Lebenslauf</a></p>
+			<p><a href="data/lebenslauf.pdf" target="_blank">Lebenslauf</a></p>
 		</div>
 		<div class="td">
 			<b>Grüezi, mein Name ist Sergei!</b><br>
@@ -124,7 +124,7 @@ freiberufliche Projekte im Bereich Web-Entwicklung, Internet-Projekte und Blockc
 	</div>
 	
 	<div class="tab tab_2">
-		<h1>Промо сайт</h1>
+		<h1>Landing page</h1>
 		<div class="wrap">
 			<a class="back" href="javascript:selTab($('#prices'),0)">&larr; Preise</a>
 			<img src="<?=img('sites/promo.jpg');?>" align="right">
@@ -140,7 +140,7 @@ Landing Page ist ideal für:
 			</p>
 			
 			<p class="center">
-				<a href="http://www.svetarobski.com" target="_blank">Beispiel von Landing page</a>
+				<a href="http://svetarobski.com" target="_blank">Beispiel von Landing page</a>
 			</p>
 		</div>
 	</div>

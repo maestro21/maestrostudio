@@ -27,14 +27,14 @@
 				<?php foreach($list as $i => $item) { ?>
 					<div data-i="<?php echo $i;?>">
 						<a href="<?php echo $item['url'];?>" target="_blank">
-							<img src="<?php echo BASE_PATH;?>img/<?php echo $item['img'];?>?v=<?php echo $v;?>" alt="<?php echo $item['url'];?>">
+							<img src="<?php echo BASE_PATH;?>img/<?php echo $item['img'];?>?v=<?php echo $v;?>" title="<?php echo $item['url'];?>" alt="<?php echo $item['url'];?>">
 							<p><span><?php echo str_replace('http://', '', $item['url']);?></span></p>
 						</a>
 					</div>
 				<?php } ?>	
 				<div data-i="<?php echo count($list);?>">
 					<a href="#">
-					<img src="<?php echo BASE_PATH;?>img/showcase/projects_<?php echo lang();?>.png?v=<?php echo $v;?>" alt="<?php echo $item['url'];?>">
+					<img src="<?php echo BASE_PATH;?>img/showcase/projects_<?php echo lang();?>.png?v=<?php echo $v;?>" title="<?php echo T('100projects');?>" alt="<?php echo T('100projects');?>">
 					<p><span> &nbsp;</p>
 					</a>
 				</div>
@@ -49,9 +49,7 @@
 			<div class="next"><img src="<?php echo BASE_PATH;?>img/rarr.png"></div>
 		</div>
 	</div>
-</div>
-
-<script>
+	<script>
  /** Showcase **/
 
     function Timer(fn, t) {
@@ -127,3 +125,5 @@
     gallery.ini('.gal', 5);
 
 </script>
+</div>
+

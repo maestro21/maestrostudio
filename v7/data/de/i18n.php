@@ -10,5 +10,5 @@ $labels = [
     'title' => 'Webdesign, Website erstellen · Web Agency «Maestro Studio»',
     'description' => '«Maestro Studio» – Webagentur in die Schweiz, Luzern · Wir bieten Ihnen alle Leistungen im Webentwicklungs-Bereich: Webdesign · Webseite erstellen · QA · SEO · Domain · Hosting · Blockchain ✆ +41 787 320 722, ✉ {mail}',
 	
-	'100projects' => 'Teilnahme an der Entwicklung von mehr als 100 Projekten.',
+	'100projects' => 'Beteiligt an der Entwicklung von mehr als 100 Projekten.',
 ];

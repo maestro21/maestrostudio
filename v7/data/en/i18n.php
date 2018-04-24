@@ -6,4 +6,5 @@
     'description' => '«Maestro Studio» – Web Agency in Switzerland, Luzern · We offer you a full range of services, and support to build, develop your personalized website: Webdesign · Create A Website · QA · SEO ·  Domain · Hosting · Blockchain ✆ +41 787 320 722, ✉ {mail}',
 	
 	'100projects' => 'Participated in the development of more than 100 projects.',
+	'showcase' => 'Showcase'
 ];

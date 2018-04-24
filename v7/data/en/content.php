@@ -25,7 +25,7 @@ create and develop your needs for a personalized website as well as Blockchain d
 			<img src="<?=img('maestro_sml.png');?>" class="maestro_sml"> -->
 			<p><b>Sergei Popov</b></p>
 			<p>Founder and CEO of Maestro Studio</p>
-			<p><a href="#">Curriculum Vitae</a></p>
+			<p><a href="data/lebenslauf.pdf" target="_blank">Curriculum Vitae (de)</a></p>
 		</div>
 		<div class="td">
 			<b>Hi, my name is Sergei!</b><br>
@@ -136,7 +136,7 @@ The design of the promo site should be stylish, bright and memorable. Exclusive 
 			</p>
 			
 			<p class="center">
-				<a href="http://www.svetarobski.com" target="_blank">Landing page example</a>
+				<a href="http://svetarobski.com" target="_blank">Landing page example</a>
 			</p>
 		</div>
 	</div>

@@ -24,7 +24,7 @@
 			<img src="<?=img('maestro_sml.png');?>" class="maestro_sml"> -->
 			<p><b>Сергей Попов</b></p>
 			<p>Основатель и владелец Maestro Studio</p>
-			<p><a href="#">Резюме</a></p>
+			<p><a href="data/lebenslauf.pdf" target="_blank">Резюме (нем.)</a></p>
 		</div>
 		<div class="td">
 			<b>Приветствую, меня зовут Сергей!</b><br>
@@ -136,7 +136,7 @@
 			</p>
 			
 			<p class="center">
-				<a href="http://www.svetarobski.com" target="_blank">Пример промо-сайта</a>
+				<a href="http://svetarobski.com" target="_blank">Пример промо-сайта</a>
 			</p>
 		</div>
 	</div>
