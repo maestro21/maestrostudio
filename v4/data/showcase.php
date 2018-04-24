@@ -17,7 +17,7 @@
            'img' => 'showcase/showcase4.png',
         ],
 
-];  ?>
+]; echo lang(); die(); ?>
 <div  data-anchor="showcase" class="section darker showcase" style="<?=img('bg/bg_sc.jpg', 2);?>" >
     <h1><?php echo T('showcase');?></h1>
     <div class="gal">
@@ -33,7 +33,8 @@
 					</div>
 				<?php } ?>	
 				<div data-i="<?php echo count($list);?>">
-					<h2><?php echo T('100projects');?></h2>
+					<img src="<?php echo BASE_PATH;?>img/showcase/projects_<?php echo lang();?>.png?v=<?php echo $v;?>" alt="<?php echo $item['url'];?>">
+					<p><span> &nbsp;</p>
 				</div>
 				<div class="dots">
 					<div class="prev"><img src="<?php echo BASE_PATH;?>img/larr.png"></div>
